@@ -1,29 +1,23 @@
-# vue-diary-list
 
-## Project setup
+# My Diary Book
+
+## Planning
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Diary List components :
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- this component is the parent component of Diary Item component
+- this component will loop Diary Item component
+- this component contains previous page and next page feature
 
-### Run your unit tests
-```
-npm run test:unit
-```
+### Diary Item components :
 
-### Lints and fixes files
-```
-npm run lint
-```
+- this component is to display the input content
+- each item has a delete button to delete this item
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Diary Input components :
+
+- text input can be previewed
+- when click submit button, it will create a new diary as an object, and add to orginial array
