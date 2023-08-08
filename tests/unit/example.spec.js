@@ -1,12 +1,25 @@
 import { shallowMount } from '@vue/test-utils'
-import HelloWorld from '@/components/HelloWorld.vue'
+import DiaryInput from '@/components/DiaryInput.vue'
 
-describe('HelloWorld.vue', () => {
-  it('renders props.msg when passed', () => {
-    const msg = 'new message'
-    const wrapper = shallowMount(HelloWorld, {
-      props: { msg }
-    })
-    expect(wrapper.text()).toMatch(msg)
-  })
+describe('DiaryInput.vue', () => {
+  it('renders default object when passed', () => {
+    const wrapper = shallowMount(DiaryInput);
+    
+  });
+
+   it("check input title can be displayed in title preview area", () => {
+     
+   });
+  
+  it("check input textarea can be displayed in paragraph preview area", () => {
+     
+  });
+  
+  it("If input text, when submit button is clicked, an object will be added to the list", () => {
+     
+  });
+  
+  it("If empty input, when submit button is clicked, an alert will show up", () => {
+     
+   });
 })

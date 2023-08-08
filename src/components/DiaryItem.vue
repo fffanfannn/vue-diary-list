@@ -1,8 +1,8 @@
 <template>
-    <h1>Component: DiaryItem</h1>
+    <h3>Component: DiaryItem</h3>
     <li>
-        <h4>Diary title review</h4>
-   <p>Diary paragraph review</p>
+        <h4>Diary title</h4>
+   <p>Diary paragraph</p>
    <button>Delete</button>
     </li>
 </template>

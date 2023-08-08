@@ -1,6 +1,7 @@
 <template>
+    <hr>
    <div>
-<h1>Component: DiaryList</h1>
+<h2>Component: DiaryList</h2>
      <ul>
         <DiaryItem/>
         <DiaryItem/>
